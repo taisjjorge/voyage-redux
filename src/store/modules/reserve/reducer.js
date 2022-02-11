@@ -29,7 +29,7 @@ export default function reserve(state = [], action){
                     }
                 });
             
-            case 'UPDTATE_RESERVE': {
+            case 'UPDATE_RESERVE': {
                 if(action.amount <= 0){
                     return state;
                 } 
